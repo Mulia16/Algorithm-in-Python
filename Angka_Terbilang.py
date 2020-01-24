@@ -19,7 +19,7 @@ while patokanAkhir >= 0 :
         patokanAkhir -= 1
         patokanAwal += 1
         pembatas -= 1
-    if ribuan == True and patokanAwal > 2  and "Se" not in hasil and "Ribu" not in hasil:
+    if ribuan == True and patokanAwal > 3  and "Se" not in hasil and "Ribu" not in hasil:
         hasil = hasil + " Ribu"
         ribuan == False
 print("=" * 15 + " Selesai " + 15 * "=")
